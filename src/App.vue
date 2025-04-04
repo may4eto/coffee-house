@@ -47,7 +47,7 @@ export default {
         {
           id: 1,
           name: 'Cappuccino',
-          url: 'src/assets/cappuccino.jpg',
+          url: 'images/cappuccino.jpg',
           price: 8.2,
           rating: 4.7,
           votes: 65,
@@ -57,7 +57,7 @@ export default {
         {
           id: 2,
           name: 'House Coffee',
-          url: 'src/assets/house-coffee.jpg',
+          url: 'images/house-coffee.jpg',
           price: 8.0,
           rating: 4.85,
           votes: 14,
@@ -67,7 +67,7 @@ export default {
         {
           id: 3,
           name: 'Espresso',
-          url: 'src/assets/espresso.jpg',
+          url: 'images/espresso.jpg',
           price: 2.5,
           rating: 4.9,
           votes: 55,
@@ -77,7 +77,7 @@ export default {
         {
           id: 4,
           name: 'Coffee Latte',
-          url: 'src/assets/coffee-latte.jpg',
+          url: 'images/coffee-latte.jpg',
           price: 4.5,
           rating: 5.0,
           votes: 23,
@@ -87,7 +87,7 @@ export default {
         {
           id: 5,
           name: 'Chocolate Coffee',
-          url: 'src/assets/chocolate-coffee.jpg',
+          url: 'images/chocolate-coffee.jpg',
           price: 4.0,
           rating: 4.65,
           votes: 122,
@@ -97,7 +97,7 @@ export default {
         {
           id: 6,
           name: 'Valentine Special',
-          url: 'src/assets/valentine-special.jpg',
+          url: 'images/valentine-special.jpg',
           price: 5.5,
           rating: null,
           votes: 0,
@@ -175,6 +175,9 @@ export default {
   text-align: center;
   margin-bottom: 2rem;
   color: #fef7ee;
+  background-image: url('images/vector.svg');
+  background-position: center;
+  background-size: contain;
 }
 
 .header h1 {

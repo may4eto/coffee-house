@@ -101,7 +101,7 @@ export default {
           price: 5.5,
           rating: null,
           votes: 0,
-          available: true,
+          available: false,
           popular: false
         }
       ]
